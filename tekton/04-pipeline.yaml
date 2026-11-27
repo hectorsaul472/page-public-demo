@@ -8,15 +8,15 @@ spec:
     - name: repo-url
       description: URL del repositorio Git
       type: string
-      default: "https://github.com/dguerrero11/page-public-demo"
+      default: "https://github.com/hectorsaul472/page-public-demo"
     - name: revision
       description: Branch o tag a construir
       type: string
       default: main
     - name: image
-      description: "Imagen con tag. Ej: guerrero11dan/page-public-demo:v1"
+      description: "Imagen con tag. Ej: TU_USUARIO_DOCKERHUB/page-public-demo:v1"
       type: string
-      default: "guerrero11dan/page-public-demo:v1"
+      default: "TU_USUARIO_DOCKERHUB/page-public-demo:v1"
   workspaces:
     - name: shared-source
       description: Workspace NFS compartido entre Tasks

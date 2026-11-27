@@ -11,11 +11,11 @@ spec:
     name: build-and-deploy
   params:
     - name: repo-url
-      value: "https://github.com/dguerrero11/page-public-demo"
+      value: "https://github.com/hectorsaul472/page-public-demo"
     - name: revision
       value: main
     - name: image
-      value: "guerrero11dan/page-public-demo:v1"
+      value: "TU_USUARIO_DOCKERHUB/page-public-demo:v1"
   workspaces:
     - name: shared-source
       volumeClaimTemplate:

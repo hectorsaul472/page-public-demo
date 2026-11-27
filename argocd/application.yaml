@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: "https://github.com/dguerrero11/page-public-demo"
+    repoURL: "https://github.com/hectorsaul472/page-public-demo"
     targetRevision: main
     path: k8s                # ArgoCD monitorea solo esta carpeta
   destination:

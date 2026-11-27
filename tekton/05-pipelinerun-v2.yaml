@@ -1,5 +1,5 @@
 # Usar después de modificar app/index.html para v2
-# y actualizar k8s/deployment.yaml con image: dguerrero11/page-demo:v2
+# y actualizar k8s/deployment.yaml con image: hectorsaul472/page-demo:v2
 apiVersion: tekton.dev/v1beta1
 kind: PipelineRun
 metadata:
@@ -10,11 +10,11 @@ spec:
     name: build-and-deploy
   params:
     - name: repo-url
-      value: "https://github.com/dguerrero11/page-public-demo"
+      value: "https://github.com/hectorsaul472/page-public-demo"
     - name: revision
       value: main
     - name: image
-      value: "guerrero11dan/page-public-demo:v2"
+      value: "TU_USUARIO_DOCKERHUB/page-public-demo:v2"
   workspaces:
     - name: shared-source
       volumeClaimTemplate:

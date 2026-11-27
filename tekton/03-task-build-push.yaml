@@ -6,7 +6,7 @@ metadata:
 spec:
   params:
     - name: image
-      description: "Imagen destino con tag. Ej: dguerrero11/page-demo:v1"
+      description: "Imagen destino con tag. Ej: hectorsaul472/page-demo:v1"
       type: string
     - name: dockerfile
       description: Ruta al Dockerfile
